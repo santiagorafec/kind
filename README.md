@@ -1,7 +1,7 @@
 Kind installation guide
 ====
 The kind app. Begin your kind journey in life today!<br>
-For iPhone 4/4S only.<br>
+For iPhone 4/4S only (temporarily).<br>
 <br>
 You are going to need to download: <br>
    ø XCode (https://developer.apple.com/xcode/downloads/)<br>
