@@ -6,7 +6,7 @@ For iPhone 4/4S only.<br>
 You are going to need to download: <br>
    ø XCode (https://developer.apple.com/xcode/downloads/)<br>
    ø Node.js (http://nodejs.org/)<br>
-   ø The kind app files. (Do this by clicking in the "Download ZIP" button found on the left margin of this page)<br>
+   ø The kind app files. (Do this by clicking in the "Download ZIP" button found on the right margin of this page)<br>
 <br>
 1. Download all the items on the above list<br>
 2. Open the terminal app if you are on Mac or Command prompt if you are on windows<br>
