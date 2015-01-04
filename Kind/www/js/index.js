@@ -570,7 +570,6 @@ function setTheme(chosenTheme){
 		$("#bar2").css("background", "#" + LEVELS[chosenTheme][0][4]);
 	
 		$("#smiler").css("color", getContrast(LEVELS[chosenTheme][0][4]));
-		
 }
 function updateLoggingBar(smile, limi, leve){
 		var message1 = smile+" of "+limi+" Smiles";	
