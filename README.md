@@ -8,8 +8,8 @@ You are going to need to download: <br>
    ø Node.js (http://nodejs.org/)<br>
    ø The kind app files. (Do this by clicking in the "Download ZIP" button found on the left margin of this page)<br>
 <br>
-1. Download all the items on the list<br>
-2. Open the terminal app<br>
+1. Download all the items on the above list<br>
+2. Open the terminal app if you are on Mac or Command prompt if you are on windows<br>
 3. Write (to install something required called phonegap)<br>
 <br>
             sudo npm install -g phonegap<br>
