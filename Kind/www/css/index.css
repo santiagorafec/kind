@@ -1,0 +1,550 @@
+html{
+ -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	word-wrap: break-word;
+
+
+}
+body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.supremer{
+	margin-top: 40%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Cabrito-NorReg;
+}
+.levelpassinggroup{
+	text-align:center;
+	font-size: 20px;
+}
+
+.CursiveScriptLight { 
+	font-family: CursiveScriptLight;
+	font-weight: normal;
+	font-style: normal;
+}
+.CursiveScript { 
+	font-family: CursiveScript;
+	font-weight: normal;
+	font-style: normal;
+}
+.Cabrito-NorReg { 
+	font-family: Cabrito-NorReg;
+	font-weight: normal;
+	font-style: normal;
+}
+.textoflevelpassing{
+	margin-top: 15%;
+	font-size: 30px;
+	font-weight: bold;
+		font-family: Cabrito-NorReg;
+}
+.textoflevelpassingo{
+	margin-top: 17%;
+	font-size: 20px;
+	font-weight: bold;
+		font-family: Cabrito-NorReg;
+}
+#tinsiration{
+	margin-top: 10%;
+	font-size: 25px;
+}
+.colore{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin: 0 8px;
+	margin-top:  30px;
+	border-radius: 35px;
+	border: 3px solid white;
+}
+#colorsoflevelpassing{
+	width: 100%;
+	height: 160px;
+}
+#thelevelidentifier{
+	font-size: 75px;
+}
+.nextnavigator, .ok{
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	font-size: 40px !important;
+	text-align: center;
+	padding-top: 10px;
+}
+#yesimdone{
+	position: absolute;
+	bottom: 85px;
+	width: 100%;
+	font-size: 65px;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+#justcancel{
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 10px;
+
+}
+.thetitle{
+	/* padding-top: 3px; */
+	font-size: 40px;
+	padding-top: 28px;
+}
+#boson{
+	font-size: 60px;
+	width: 100%;
+	margin: 0 auto;
+	position: absolute;
+	top: 40%;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    black;
+}
+.thetitlo{
+	padding-top: 3px;
+	font-size: 30px;
+	margin-top: 0;
+	padding-top: 20px;
+}
+#former{
+	margin-top: 20px;
+}
+#nextAddProcessContainer{
+	position: absolute;
+	bottom: 40px;
+display: block;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+#nextAddProcess, #bextAddProcess, #savethisactivity{
+		font-size: 30px;
+
+}
+#rangecentrer{
+	position: absolute;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto !important;
+	bottom: 20%;
+}
+#range{
+}
+.thetitle2{
+	/* padding-top: 3px;*/
+	font-size: 40px;
+	padding-top: 20px;
+}
+#smilesjustearnt{
+	padding-top:5%;
+	font-size: 60px; 
+}
+#thesmileinspiration{
+		margin-top: 40%;
+	font-size: 30px;
+}
+/********************************!!!!****************************************/
+.titleSpace{
+	position: absolute;
+	width: 100%;
+	top: 38%;
+	}
+
+.buttOn{
+	font-family: CursiveScript;
+	font-size: 18px;
+}
+.changeActivity{
+	margin-top:11px;
+}
+span{
+	display: block;
+}
+footer{
+	text-align: center;
+	width: 100%;
+	height: 10%;
+	border-top: solid #999 1px;
+	position: absolute;
+	bottom: 0;
+	background: white;
+}
+.headinger{
+	font-size: 26px;
+	text-align: center;
+	z-index: 10;
+	margin: 5px 0;
+}
+.hea{
+	font-size: 30px;
+	text-align: center;
+	z-index: 10;
+	margin: 5px 0;
+	line-height: 100%;
+}
+
+.for{
+	/* font-style: italic; */
+	  line-height: 100%;
+}
+#leveldescriptor{
+	width: 70%;
+	height: 120px;
+	background: lightgreen;
+	margin-top:10%;
+	margin: 0 auto;
+}
+.panel{
+	padding-top: 10px;
+	font-weight: bold;
+	font-size:33px;
+
+}
+.panelo{
+	padding-top: 10px;
+	font-weight: bold;
+	font-size:33px;
+}
+#aP{
+	background: #FFF;
+	position:absolute;
+	right: 0;
+	width: 492px;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+#quotings{
+	font-size: 23px;
+	width: 100%;
+	text-align: center;
+	margin-top: 13%;
+	line-height: 100%;
+	font-style: italic;
+}
+.panel{
+	padding-left: 35%;
+}
+#author{
+	margin: 46px 0 0 0;
+	font-size: 20px;
+}
+#dP{
+	background: #FFF;
+	width: 500px;
+	border-top: solid 2px #fff;
+}
+#dP .panelo{
+	padding-right: 35%;
+}
+
+
+#progress1, #progress2, #progress3{
+	width: 100%;
+	height: 30px;
+	background: lightgray; 
+}
+.spcontainer{
+	height: 10%;
+	background: white;
+		font-family: Cabrito-NorReg;
+
+}
+#bar1, #bar2, #bar3{
+	width: 80.8%;
+	height: 100%;
+	border-radius: 0 100px 100px 0;
+}
+#main{
+	width: 100%;
+	height: 100%;
+}
+.slide{
+}
+.slider, .slide-group, .slide{
+	    display: block;
+    vertical-align: top;
+
+		width: 100%;
+		height: 100%;
+		background: white;
+}
+.space{
+width: 100%;
+height: 19%;
+background: white;
+}
+.contentt{
+	padding-top: 35px;
+	height: 72%;
+	width : 100%;
+}
+.contentto{
+	position: absolute;
+	z-index: 3;
+	bottom: 0;
+	
+	height: 68.3%; /* 69% */
+	
+	width : 100%;
+}
+#cancelAddProcess{
+	font-size: 20px;
+}
+#theaddingcentral, #activityDO, #freshsmiles{
+	width: 100%;
+	height: 100%;
+}
+#activityDO, #freshsmiles{
+	/* margin-top: -24px !important;*/
+}
+#a{
+	height: 100%;
+}
+
+#forer{
+}
+#bar{
+}
+#a{
+}
+#b{
+	}
+#c{
+}
+#d{
+		
+}
+.f{
+	font-size: 15px;
+}
+#ACT{
+	font-size: 40px;
+}
+
+.fixeds{
+	z-index: 1;
+position: absolute;
+display: block;
+text-align: center;
+width: 100%;
+top: 8.7%;
+background: white;
+height: 22%;
+}  
+input[type="text"], textarea{
+	background-color: inherit !important;
+	width: 90% !important;
+	margin:0 auto 20px auto !important;
+	display: block;
+}
+#smilecounter1,#smilecounter2,#smilecounter3, #levelcounter{
+	padding: 11px;
+	font-size:19px;
+}
+
+#mainApp, #nointernet, #registration, #welcome, #smiler, #activityDO, #addnewbefo, #changeactivitybefo{
+	display: none;
+}
+#welcome, #registration{
+	width: 100%;
+	height: 100%;
+}
+
+#welcome{
+	
+	background: #066;
+	color: white;
+}
+#registration{
+	background: brown;
+	color: white;
+}
+#theaddingcentral{
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+}
+#textfields{
+
+}
+h1{
+	font-size: 2em;
+}
+.Acttt{
+	position: absolute;
+	top: 37%;
+	width: 100%;
+	
+      min-height:100px;
+	
+} .ActttInsider{
+	margin: 0 auto;
+	font-weight: bold;
+	padding-top: 2px;
+	text-align:center;
+	
+}
+
+.Smilesss{
+	position: absolute;
+		width: 100%;
+	top: 78px;
+	padding-top: 2px;
+	
+} .SmilesssInsider{
+	margin: 0 auto;
+		padding-top: 2px;
+
+	text-align: center;
+
+}
+.makeMyDay{
+	position: absolute;
+	width: 100%;
+	top: 60%;
+
+} .makeMyDayInsider{
+	margin: 0 auto;
+	text-align: center;
+		font-size: 46px;
+}
+.newActivity{
+	position: absolute;
+	width: 100%;
+	top: 40%;
+
+} .newActivityInsider{
+	margin: 0 auto;
+	text-align: center;
+		font-size: 35px;
+}
+.manage{
+	position: absolute;
+	width: 100%;
+	top: 55%;
+
+} .manageInsider{
+	margin: 0 auto;
+	text-align: center;
+		font-size: 35px;
+}
+.settings{
+	position: absolute;
+	width: 100%;
+	top: 70%;
+
+} .settingsInsider{
+	margin: 0 auto;
+	text-align: center;
+		font-size: 35px;
+}
+.howto{
+	position: absolute;
+	width: 100%;
+	top: 85%;
+
+} .howtoInsider{
+	margin: 0 auto;
+	text-align: center;
+		font-size: 35px;
+}
+
+.savedActs{
+	position: absolute;
+	width: 100%;
+	bottom: 3%;
+
+} .savedActsInsider{
+	margin: 0 auto;
+	text-align: center;
+		font-size: 27px;
+}
+.slide{
+	word-wrap: break-word;
+}
+.icono{
+	height: 70px;
+	width: 70px;
+	text-align: center;
+	font-size: 50px;
+	border: solid #000 1px;
+	border-radius: 50%;
+	position: relative;
+
+}
+.a{
+	left: 100px;
+}
+#theButtonArea{
+	width: 500px;
+	height: 500px;
+}
+.div{  
+	margin: auto;
+}
+/********************************!!!!****************************************/
+.actionButtons{
+	position: absolute;
+	bottom: 7%;
+	width: 100%;
+	text-align:center;
+}
+.doThisActivityInsider{
+	font-size: 45px;
+	margin: 0 auto;
+	
+	padding-bottom: 15px;
+
+}
+
+.changeActivityInsider{
+		font-size: 39px;
+		margin: 0 auto;
+
+}
+input[type="range"]{
+	-webkit-appearance: none;
+    background: #b8b7b8;
+    width: 200px;
+    height: 4px;
+    border-radius: 4px;
+    position: relative;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(0.2, #007aff),
+        color-stop(0.2, #b8b7b8)
+    );
+}
+
+input[type="range"]::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	background-color: #666;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow: 0px 2px 4px rgba(0,0,0,.2);
+  cursor: pointer;
+}

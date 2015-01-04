@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/theme.css" />
+        <link rel="stylesheet" type="text/css" href="css/experience.css" />
+<link rel="stylesheet" type="text/css" href="fonts/MyFontsWebfontsKit.css">
+
+		 <script type="text/javascript" src="js/jQuery/base.js"></script>
+        <script type="text/javascript" src="js/ratchet.js"></script>
+        <script type="text/javascript" src="js/sound.js"></script>
+
+        <title>Kind</title>
+    </head>
+    <body>
+    
+    <audio id = "panelSound">
+	<source src="panel.mp3"></source>
+	</audio>
+    
+    <audio id = "movingSound">
+	<source src="moving.mp3"></source>
+	</audio>
+
+    <audio id = "newlevelSound">
+	<source src="newlevel.wav"></source>
+	</audio>
+    
+       <section id = "welcome">
+		<h1 class="thetitle2 CursiveScript" style = "width: 100%; text-align: center;">Welcome to Kind!</h1>
+		<h3 class="supremer">Kind is an app to be a better person.</h3>
+          <h3 class="buttOn levelpassinggroup nextnavigator" id = "mnBtn">Start!</h3>
+
+   </section>
+
+   <section class = "rn" id = "registration">
+		<h1 class="thetitle2 CursiveScript" style = "width: 100%; text-align: center;">What's your name?</h1>
+<br>
+<br>
+<br>        
+        <form id="formal">
+        <input type = "text" id = "username"/>
+        <h3 class="buttOn levelpassinggroup nextnavigator" id = "go">Next!</h3>
+  </form>
+
+   </section>
+      <section class = "rn" id = "tutorial">
+		<h1>Tutorial!</h1>
+        
+
+   </section>
+      <section class = "rn" id = "nowgogo">
+		<h1>Register!</h1>
+
+   </section>
+   
+   
+   
+   
+   
+   <!------------------------------------------------------------------------------------------------------------------------------------------------>
+   <!------------------------------------------------------------------------------------------------------------------------------------------------>
+   <!------------------------------------------------------------------------------------------------------------------------------------------------>
+   
+   
+   
+   
+   <section id = "theaddingcentral" >
+        	<h1 class="thetitlo CursiveScript levelpassinggroup" id = "saymeit"> New activity!  <acronym class="icon icon-close" id = "cancelAddProcess"></acronym>
+</h1>
+		<div id = "textfields">
+
+        <form id = "former">
+        	<span style="margin: 0 0 0 20px; ">Title:</span> <input type = "text" id = "actitle" width="75%" maxlength = "20">
+        	<span style="margin: 0 0 0 20px; ">Description:</span> <textarea type = "text" id = "actdescription" style = "height: 60px !important;" size = "52" maxlength = "52"></textarea>
+        	<span style="margin: 0 0 0 20px; ">Inspiration (optional):</span> <textarea type = "text" id = "actinspiration" style = "height: 90px !important;" size = "78" maxlength = "78"></textarea>
+        </form>
+                <h3 class = "buttOn levelpassinggroup" id ="nextAddProcessContainer" ><acronym id = "nextAddProcess">Next!</acronym></h3>
+        
+        </div>
+        
+        <div id="smiledecider">
+             <h1 class="Cabrito-NorReg levelpassinggroup" id = "boson"><b id = "numa"></b> Smiles!</h1>
+            <div id = "rangecentrer"><input type="range" min="2" max="50" value="2" id="range" step="1"/>        </div>   
+                            <h3 class = "buttOn levelpassinggroup" id ="nextAddProcessContainer" ><acronym id = "bextAddProcess">Next!</acronym></h3>
+ 
+        </div>
+        <div id="confirmer">
+        	<h4 class = "levelpassinggroup textoflevelpassingo Cabrito" id = "titleconfirmer">You're now on the next level of kindness!</h4>
+            <h4 class = "levelpassinggroup textoflevelpassingo Cabrito" id = "descriptionconfirmer">You're now on the next level of kindness!</h4>
+            <h4 class = "levelpassinggroup textoflevelpassingo Cabrito" id = "inspirationconfirmer">You're now on the next level of kindness!</h4>
+            <h4 class = "levelpassinggroup textoflevelpassingo Cabrito" id = "smileconfirmer">You're now on the next level of kindness!</h4>
+                <h3 class = "buttOn levelpassinggroup" id ="nextAddProcessContainer" ><acronym id = "savethisactivity">Go!</acronym></h3>
+
+        </div>
+
+    </section>
+   <section id = "addnewbefo" >
+    
+    <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+                    <div class="slide">
+        	<div class = "spcontainer">
+
+    
+    <span class = "headinger panelo CursiveScript">A new activity</span></div>
+
+  <div class = "fixeds">
+    <span class="headinger for Cabrito-NorReg" id = "forer1">for a cool <b>Santiago</b></span>
+    <div id = "progress1">
+    <div id="bar1"></div>
+    </div>
+    <div id = "smilecounter1" class = "Cabrito-NorReg"><div id = "theofirst1">59 of 70 Smiles</div><div id = "theosecond1">Level 5</div></div>
+    </div>
+    
+    
+    
+    
+    
+                <div class="space"></div>
+            <div class="contentto"  id = "b">
+<!--
+<h3 class="buttOn makeMyDay"><span class = "makeMyDayInsider CursiveScript" >+ Add new!</span></h3>
+ -->
+            </div>
+            </div>
+            </div>
+    
+  
+    
+    
+    
+    
+</section>
+   <section id = "changeactivitybefo" >
+    
+    <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+                    <div class="slide">
+        	<div class = "spcontainer" id = "fifi">
+
+    
+    <span class = "headinger panelo CursiveScript">Be kind</span></div>
+
+  <div class = "fixeds">
+    <span class="headinger for Cabrito-NorReg" id = "forer3">for a cool <b>Santiago</b></span>
+    <div id = "progress3">
+    <div id="bar3"></div>
+    </div>
+    <div id = "smilecounter3" class = "Cabrito-NorReg"><div id = "theofirst3">59 of 70 Smiles</div><div id = "theosecond3">Level 5</div></div>
+    </div>
+    
+    
+    
+    
+    
+                <div class="space"></div>
+            <div class="contentto"  id = "aS">
+<!--
+<h3 class="buttOn makeMyDay"><span class = "makeMyDayInsider CursiveScript" >+ Add new!</span></h3>
+ -->
+            </div>
+            </div>
+            </div>
+    
+  
+    
+    
+    
+    
+</section>
+
+   <!--
+   <section class = "rn" id = "newactivity">
+
+
+   </section>
+   -->
+   <section class = "activityDO" id = "activityDO"  >
+        <div>
+        
+        <h3 class="thetitle2 CursiveScript levelpassinggroup" id = "ttitle">Have you smiled?</h3>
+        
+        <h4 class = "levelpassinggroup textoflevelpassing Cabrito" id = "tinsiration"><i>A smile is a pile!</i> Smile to the next person you see!</h4>
+        <h3 class = "buttOn levelpassinggroup" id = "yesimdone">Yes!</h3>
+        <h3 class = "buttOn levelpassinggroup" id = "justcancel">cancel</h3>
+        
+        </div>
+
+   </section>
+
+<section class="freshsmiles" id = "freshsmiles">
+
+<h3 class="thetitle CursiveScript levelpassinggroup" id = "smilesjustearnt"></h3>
+<h4 class = "levelpassinggroup textoflevelpassing Cabrito" id = "thesmileinspiration"></h4>
+
+<h3 class = "buttOn ok" id = "ok">Ok!</h3>
+
+</section>
+<section class="smiler" id="smiler" style=" height: 100%; width: 100%; position: absolute; top: 0;">
+
+
+
+
+
+<div id = "levelpassedcontainter">
+
+<div id = "congratulationsover-levelpassing" >
+
+<h3 class="thetitle CursiveScript levelpassinggroup">Congratulations!</h3>
+
+<h4 class = "levelpassinggroup textoflevelpassing Cabrito">You're now on the next level of kindness!</h4>
+<h3 class = "buttOn levelpassinggroup nextnavigator">Next!</h3>
+
+</div>
+
+
+<div id = "content-levelpassing">
+<h3 class="thetitle CursiveScript levelpassinggroup" id = "thelevelidentifier"></h3>
+<h4 class = "levelpassinggroup textoflevelpassing Cabrito" id = "theonequote"></h4>
+<div id="colorsoflevelpassing">
+    <div class="colore" id = "colore1"></div>
+    <div class="colore" id = "colore2"></div>
+    <div class="colore" id = "colore3"></div>
+    <div class="colore"id = "colore4"></div>
+</div>
+<h3 class = "buttOn levelpassinggroup nextnavigator">Go!</h3>
+</div>
+
+</div>
+
+
+
+
+
+
+
+</section>
+<section class="content" id = "mainApp">
+
+   
+   
+   
+   
+   
+   
+   
+   
+<div id="main">
+<div class="slider" id = "slider">
+<div class="slide-group">
+        <div class="slide" >
+        	<div class = "spcontainer" id= "aP">
+            
+            <span class = "headinger panel CursiveScript" >Be kind</span></div>
+            <div class="space"></div>
+            <div class="contentt" id = "a">
+            
+            
+            	<div class = "centregus">
+                <div class="titleSpace">
+             	<h1 class="Cabrito-NorReg Acttt"><span class = "ActttInsider" id = "offActivity">Share an<br>anecdote.</span></h1>
+          		<h3 class="Cabrito-NorReg Smilesss"><span class = "SmilesssInsider">for <b class = "number" id = "offNumber">14</b> Smiles</span></h3>
+                </div>
+                <div class = "actionButtons">
+            
+				<h3 class = "buttOn" id = "doThisActivity"><span class = "doThisActivityInsider" id = "doThisActivityOffline">Do this!</span></h3>
+               				<h3 class = "buttOn changeActivity"><span class= "changeActivityInsider" id = ""><label id="changeActivityOffline">other</label></span></h3>
+
+            	</div>
+            	</div>
+            
+            </div>
+
+       
+		</div>
+                <div class="slide">
+        	<div class = "spcontainer">
+            
+            <span class = "headinger panelo CursiveScript">A new activity</span></div>
+            <div class="space"></div>
+            <div class="contentt"  id = "b2">
+
+<h3 class="buttOn makeMyDay"><span class = "makeMyDayInsider CursiveScript" id = "adder">+ Add new!</span></h3>
+            </div>
+            </div>
+
+                <div class="slide" >
+        	<div class = "spcontainer" id = "dP">
+            
+            <span class = "headinger panelo CursiveScript">A kind quote</span></div>
+            <div class="space"></div>
+            <div class="contentt" id = "c">
+            	<div class = "centregus">
+				<div class="quotings Cabrito-NorReg" id = "quotings"></div>
+				<div class="author Cabrito-NorReg alignright" id = "author">- J.K Rowling XIV</div>
+		
+
+
+            </div>
+            </div>
+
+       
+		</div>
+        
+            </div>
+</div>
+</div>
+
+
+ <div class = "fixeds">
+    <span class="headinger for Cabrito-NorReg" id = "forer2">for a cool <b>Santiago</b></span>
+    <div id = "progress2">
+    <div id="bar2"></div>
+    </div>
+    <div id = "smilecounter2" class = "Cabrito-NorReg"><div id = "theofirst2">59 of 70 Smiles</div><div id="theosecond2">Level 5</div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</section>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script><script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
