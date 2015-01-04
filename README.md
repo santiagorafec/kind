@@ -1,4 +1,4 @@
-Kind install guide
+Kind installation guide
 ====
 The kind app. Begin your kind journey in life today!<br>
 For iPhone 4/4S only.<br>
