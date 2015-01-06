@@ -16,7 +16,7 @@ You are going to need to download: <br>
 <br>
 4. Press enter<br>
 5. Go to the zip file you downloaded for the kind app files and open it<br>
-6. Navigate to Kind -> platforms -> ios -> Kind.xcodeproj<br>
+6. Navigate to Kind -> Kind.xcodeproj<br>
 7. Double click this file and it should be opened in XCode<br>
 8. Choose an iPhone 4/4S device in XCode on the top left corner option menu<br>
 9. Click the play button on the top left corner<br>
